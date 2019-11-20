@@ -1,0 +1,39 @@
+body{
+    background-color: dimgrey;
+}
+table{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: crimson;
+    text-align: center;
+    margin-top: 2%;
+    border-style: solid;
+   
+}
+.game-button{
+    height: 50px;
+    width: 70px;
+    margin-top: 10%;
+    display: inline-flex;
+  
+} 
+.smile{
+    display:inline-block;
+}
+
+ td {
+    height: 10px;
+    width: 10px;
+    background-color: dodgerblue;  
+  
+  
+} 
+
+.selected{
+    height: 10px;
+    width: 10px;
+    background-color: lightgray;
+
+}
+
