@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Minesweeper game</title>
+</head>
+
+<body onload="initGame()" oncontextmenu="cellMarked()">
+    <center>
+
+        <table>
+
+            <button onclick="restart()" class="game-button">RSTART</button>
+            <button onclick="simple()" class="game-button">Beginner </button>
+            <button onclick="hard()" class="game-button">Medium </button>
+            <button onclick="hardest()" class="game-button">Expert</button>
+            </br>
+            <p class="smile" onclick="restart()">😃 </p>
+            </br>
+
+            <tbody class="minesweeper-border">
+
+            </tbody>
+        </table>
+    </center>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
