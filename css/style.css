@@ -1,39 +1,108 @@
-body{
-    background-color: dimgrey;
+body {
+    background-color: silver;
+    /* height: 80%;
+    width: 80%; */
+
 }
-table{
-    height: 200px;
-    width: 200px;
-    background-color: brown;
-    border: crimson;
+
+.border-game {
+    height: 320px;
+    width: 300px;
+    border-style: groove;
+    
+    
+}
+
+.border-game .cell-start {
+    height: 15px;
+    width: 15px;
+    /* border: rgb(0, 0, 0); */
+    border-style: groove;
+    font-size: 10px;
+    display: table-cell;
+    /* transition-duration: 0.1s; */
+}
+
+.border-game .cell-start:hover {
+    background-color: rgb(85, 85, 85);
+    color: white;
+  }
+
+.selected {
+    height: 15px;
+    width: 15px;
+    /* border: rgb(0, 0, 0);  */
+    border-style: groove;
+    background-color: rgb(223, 222, 222);
     text-align: center;
-    margin-top: 2%;
-    border-style: solid;
-   
+    font-size: 10px;
+    display: table-cell;
+}
+
+.game-panel {
+    height: 180px;
+    width: 295px;
+    margin-bottom: 3px;
+    border: rgb(0, 0, 0);
+    border-style: groove;
+    
+}
+.sec-txt{
+    display: inline;
+    font: menu;
+}
+.flag{
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    font-size: 10px;
+    display: table-cell;
+    border-style: groove;
+}
+
+.timer{
+    width: 190px;
+    border-style: groove;
+    margin-bottom: 6%;
+    margin: 1%;
+    background-color: rgb(34, 34, 36);
+    color: rgb(255, 6, 6);
 }
 .game-button{
-    height: 50px;
-    width: 70px;
-    margin-top: 10%;
-    display: inline-flex;
-  
-} 
+    background-color: silver;
+    width: 90px;
+
+    /* border: none; */
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 .smile{
-    display:inline-block;
+    font-size: 40px;
+    border: none;
+    background-color: silver;
+    margin-top:-15px ;
+}
+.hint-cell{
+    background-color: rgb(1, 24, 4);
+    height: 15px;
+    width: 15px;
+    /* border: rgb(0, 0, 0); */
+    border-style: groove;
+    font-size: 7px;
+    display: table-cell;
 }
 
- td {
-    height: 10px;
-    width: 10px;
-    background-color: dodgerblue;  
-  
-  
-} 
-
-.selected{
-    height: 10px;
-    width: 10px;
-    background-color: lightgray;
+.lives-button{
+    background-color: silver;
+    width: 90px;
 
 }
+.live {
 
+    text-align: center;
+
+}

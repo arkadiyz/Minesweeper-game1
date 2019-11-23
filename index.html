@@ -4,26 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <title> Minesweeper game</title>
+    <title>Document</title>
 </head>
 
-<body onload="initGame()" oncontextmenu="cellMarked()">
+<body onload="initGame()">
     <center>
 
-        <table class="bord-game">
 
-            <button onclick="restart()" class="game-button">RSTART</button>
-            <button onclick="simple()" class="game-button">Beginner </button>
-            <button onclick="hard()" class="game-button">Medium </button>
-            <button onclick="hardest()" class="game-button">Expert</button>
+        <div class="game-panel">
+
+            <h2 class="timer">SEC 0</h2>
+
+
+            <button class="game-button" onclick="chengeBoard(4,2)">Beginner</button>
+            <button class="game-button" onclick="chengeBoard(8,12)">Medium</button>
+            <button class="game-button" onclick="chengeBoard(12,30)">Expert</button>
+
             </br>
-            <p class="smile" onclick="restart()">😃 </p>
+            <button onclick="getHint()" id="my-btn1" class="game-button">💡</button>
+            <button onclick="getHint()" id="my-btn2" class="game-button">💡</button>
+            <button onclick="getHint()" id="my-btn3" class="game-button">💡</button>
+            <div class="live">
+                    <button onclick="getLives()" id="hert-btn1" class="lives-button">❤️</button>
+                    <button onclick="getLives()" id="hert-btn2" class="lives-button">❤️</button>
+                    <button onclick="getLives()" id="hert-btn3" class="lives-button">❤️</button>
+                </div>
             </br>
+            <button class="smile" onclick="restart()">😃 </button>
 
-            <tbody class="minesweeper-border">
+            </br>
+        </div>
 
-            </tbody>
-        </table>
+        <div class="div-border-game">
+
+            <table class="border-game">
+
+
+            </table>
+        </div>
+
+
     </center>
     <script src="js/main.js"></script>
 </body>
