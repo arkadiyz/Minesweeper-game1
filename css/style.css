@@ -96,13 +96,8 @@ body {
     display: table-cell;
 }
 
-.lives-button{
+.lives{
+    display: inline;
     background-color: silver;
-    width: 90px;
-
-}
-.live {
-
-    text-align: center;
 
 }

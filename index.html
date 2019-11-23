@@ -4,16 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Minesweeper-game</title>
 </head>
 
 <body onload="initGame()">
     <center>
-
-
         <div class="game-panel">
 
-            <h2 class="timer">SEC 0</h2>
+            <h2 class="timer"> 0</h2>
 
 
             <button class="game-button" onclick="chengeBoard(4,2)">Beginner</button>
@@ -25,10 +23,10 @@
             <button onclick="getHint()" id="my-btn2" class="game-button">💡</button>
             <button onclick="getHint()" id="my-btn3" class="game-button">💡</button>
             <div class="live">
-                    <button onclick="getLives()" id="hert-btn1" class="lives-button">❤️</button>
-                    <button onclick="getLives()" id="hert-btn2" class="lives-button">❤️</button>
-                    <button onclick="getLives()" id="hert-btn3" class="lives-button">❤️</button>
-                </div>
+                <p id="hert-btn1" class="lives">❤️</p>
+                <p id="hert-btn2" class="lives">❤️</p>
+                <p id="hert-btn3" class="lives">❤️</p>
+            </div>
             </br>
             <button class="smile" onclick="restart()">😃 </button>
 

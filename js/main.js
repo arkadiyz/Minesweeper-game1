@@ -58,7 +58,7 @@ function timer() {
         else {
 
 
-            eltemer.innerHTML = 'SEC  ' + gGame.secsPassed;
+            eltemer.innerHTML =  gGame.secsPassed;
 
         }
     }, 1000);
